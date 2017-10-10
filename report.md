@@ -17,3 +17,6 @@ So later I can directly use the returned points coordinate without transfer it.
 Answer: The project code provide this line:this_thread::sleep_for(chrono::milliseconds(100));
 And also MPC model will predict future steps to give good result.
 
+5,Why smaller dt is better? (finer resolution, smaller steps make better curve)
+Why larger N isn't always better? (computational time, large N will cost more computation resource)
+How does time horizon (N*dt) affect the predicted path? This relates to the car speed too.(larger time horizon conside longer future path, faster car speed has same effect)
