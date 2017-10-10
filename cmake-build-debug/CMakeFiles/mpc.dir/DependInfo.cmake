@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/peiyong/Work/udacity-auto-drive_term2/new/CarND-MPC-Project/src/MPC.cpp" "/Users/peiyong/Work/udacity-auto-drive_term2/new/CarND-MPC-Project/cmake-build-debug/CMakeFiles/mpc.dir/src/MPC.cpp.o"
-  "/Users/peiyong/Work/udacity-auto-drive_term2/new/CarND-MPC-Project/src/main.cpp" "/Users/peiyong/Work/udacity-auto-drive_term2/new/CarND-MPC-Project/cmake-build-debug/CMakeFiles/mpc.dir/src/main.cpp.o"
+  "/Users/peiyong/Work/udacity-auto-drive_term2/new2/CarND-MPC-Project/src/MPC.cpp" "/Users/peiyong/Work/udacity-auto-drive_term2/new2/CarND-MPC-Project/cmake-build-debug/CMakeFiles/mpc.dir/src/MPC.cpp.o"
+  "/Users/peiyong/Work/udacity-auto-drive_term2/new2/CarND-MPC-Project/src/main.cpp" "/Users/peiyong/Work/udacity-auto-drive_term2/new2/CarND-MPC-Project/cmake-build-debug/CMakeFiles/mpc.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 

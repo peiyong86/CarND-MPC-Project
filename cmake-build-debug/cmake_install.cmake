@@ -1,4 +1,4 @@
-# Install script for directory: /Users/peiyong/Work/udacity-auto-drive_term2/new/CarND-MPC-Project
+# Install script for directory: /Users/peiyong/Work/udacity-auto-drive_term2/new2/CarND-MPC-Project
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,5 +35,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/peiyong/Work/udacity-auto-drive_term2/new/CarND-MPC-Project/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/peiyong/Work/udacity-auto-drive_term2/new2/CarND-MPC-Project/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

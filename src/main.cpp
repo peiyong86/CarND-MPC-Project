@@ -123,6 +123,22 @@ int main() {
           auto coeffs = polyfit(local_x, local_y, 3);
           double cte = polyeval(coeffs, local_px) - local_py; // in local coordinate system
           double epsi = local_psi - atan(coeffs[1]);
+
+
+          double Lf = 2.67;
+          double latency = 0.1; //100 milliseconds = 0.1 second
+          double a = 0;
+          //  change of sign because turning left is negative sign in simulator but positive yaw for MPC
+          double delta = j[1]["steering_angle"];
+          delta *= -1;
+//to convert miles per hour to meter per second, and you should convert ref_v too
+          //v*=0.44704;
+          px = px + v*cos(delta)*latency; // in coordinate now, so use steering angle to predict x and y
+          py = py + v*sin(delta)*latency;
+          psi = psi + v*delta*latency/Lf;
+          epsi = epsi + v*delta*latency/Lf;
+          cte= cte + v*sin(epsi)*latency;
+          v = v + a*latency;
           /*
           * TODO: Calculate steering angle and throttle using MPC.
           *

@@ -66,5 +66,5 @@ endif()
 
 
 set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "c++")
-set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "/usr/local/opt/eigen;/Users/peiyong/Work/udacity-auto-drive_term2/new/CarND-MPC-Project;/usr/lib;/usr/local/lib")
+set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "/usr/local/opt/eigen;/Users/peiyong/Work/udacity-auto-drive_term2/new2/CarND-MPC-Project;/usr/lib;/usr/local/lib")
 set(CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "/Library/Frameworks;/System/Library/Frameworks")
